@@ -6,8 +6,8 @@ Built with Electronjs
 ![Launcher](https://github.com/sandro-421/umblauncher/blob/main/screenshot1.png?raw=true)
 
 ### Compatible with:
-Linux (WinE used for the mods)
-~~Windows~~ (Soon)
+- Linux (WinE used for the mods)
+- ~~Windows~~ (Soon)
 
 ### Games Included:
 - Marble Blast Gold (Speedrun Edition) https://marbleblast.com/index.php/downloads/mbg/mbg-speedrun/category/44-mbg-speedrun
