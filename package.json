@@ -1,0 +1,43 @@
+{
+  "name": "umblauncher",
+  "version": "0.0.1",
+  "description": "The ultimate marble blast launcher",
+  "main": "exec.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "keywords": [
+    "marbleblast"
+  ],
+  "author": "user404",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^37.4.0",
+    "electron-builder": "^26.0.12"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.1",
+    "rpmbuild": "^0.0.23"
+  },
+  "build": {
+  "appId": "com.umbl.user404",
+  "productName": "uMBLauncher",
+  "files": [
+    "**/*"
+  ],
+  "directories": {
+    "output": "dist"
+  },
+  "win": {
+    "target": "exe"
+  },
+  "linux": {
+    "target": "exe"
+  },
+  "mac": {
+    "target": "dmg"
+  }
+}
+}

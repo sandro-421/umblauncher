@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:realworld="http://www.rw-designer.com/export-svg" width="960px" height="960px">
+  <g>
+    <path d="M 260 760L 260 200L 700 480C 700 480 260 760 260 760 z M 340 614L 550 480L 340 346C 340 346 340 614 340 614 z" fill="#ffffff" fill-rule="evenodd" />
+    <polygon fill="#ffffff" fill-rule="evenodd" points="279.945,256.176 649.684,472.737 288.194,711.345" />
+  </g>
+</svg>

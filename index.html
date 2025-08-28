@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>uMBLauncher</title>
+</head>
+<body>
+    <div class="sidepanel">
+        <button onclick="selectGame('pq')" class="game">
+            <img src="images/gameIcons/pq.png" id="gameIcon">
+            <p>PlatinumQuest</p>
+        </button>
+
+        <button onclick="selectGame('mbp')" class="game">
+            <img src="images/gameIcons/mbp.png" id="gameIcon">
+            <p>Marble Blast Platinum</p>
+        </button>
+
+        <button onclick="selectGame('mbu')" class="game">
+            <img src="images/gameIcons/mbu.png" id="gameIcon">
+            <p>Marble Blast Ultra</p>
+        </button>
+
+        <button onclick="selectGame('mbg')" class="game">
+            <img src="images/gameIcons/mbg.png" id="gameIcon">
+            <p>Marble Blast Gold</p>
+        </button>
+
+        <button onclick="selectGame('mbpu')" class="game">
+            <img src="images/gameIcons/mbg.png" id="gameIcon">
+            <p>Marble Blast Powered Up</p>
+        </button>
+
+        <button onclick="selectGame('stop')" class="game">
+            <img src="images/gameIcons/stop.webp" id="gameIcon">
+            <p>Stop DeluXe</p>
+        </button>
+
+        <button onclick="selectGame('mbe')" class="game">
+            <img src="images/gameIcons/mbg.png" id="gameIcon">
+            <p>Marble Blast Elite</p>
+        </button>
+
+        <button onclick="selectGame('mbfuture')" class="game">
+            <img src="images/gameIcons/mbg.png" id="gameIcon">
+            <p>Marble Blast Future</p>
+        </button>
+
+        <button onclick="selectGame('gmb')" class="game">
+            <img src="images/gameIcons/mbg.png" id="gameIcon">
+            <p>GMBGMM</p>
+        </button>
+
+        <button onclick="openWeb('mbcom')" class="game web">
+            <img src="images/gameIcons/mbcom.png" id="webIcon">
+            <p style="margin-bottom: 10px; margin-left: -10px; color: yellow;">.com</p>
+        </button>
+    </div>
+
+    <div class="mainpanel">
+        <div class="bg-main" id="bg"></div>
+
+        <div style="display: flex; align-items: center; height: 50px; margin-top: -60px; margin-left: 10px;">
+            <div class="logo-main" id="logo"></div>
+            <p id="gameName">Choose the game to get started</p>
+        </div>
+        
+        <button id="play" onclick="play()">
+            <img id="play-icon" src="images/icons/play.svg">
+            <p id="play-text">Play</p>
+        </button>
+        <div class="desc-main">
+            <div id="desc-title-container">
+                <img id="desc-icon" src="images/icons/desc.svg">
+                <p>Custom Content</p>
+            </div>
+            <button onclick="openWeb('ml')" class="game web" style="position: relative;">
+                <img src="images/gameIcons/mland.png" style="height:20px;">
+                <p>Marbleland</p>
+            </button>
+            <button onclick="openWeb('archive')" class="game web" style="position: relative;">
+                <img src="images/icons/file.svg" style="height:20px;">
+                <p>Archive</p>
+            </button>
+            <button onclick="openWeb('tools')" class="game web" style="position: relative;">
+                <img src="images/icons/file.svg" style="height:20px;">
+                <p>Tools</p>
+            </button>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
